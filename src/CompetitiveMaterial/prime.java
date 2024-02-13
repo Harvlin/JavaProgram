@@ -5,10 +5,8 @@ public class prime {
             int n = 10;
             boolean isPrime = true;
             for (int i = 2; i <= Math.sqrt(n); i++) {
-                  if (n % 1 == 0) {
+                  if (n % i == 0) {
                         isPrime = false;
-                  } else {
-                        System.out.println("Ya");
                   }
             }
             if (isPrime) {
