@@ -1,3 +1,4 @@
+package Program2;
 import java.util.Scanner;
 import java.util.Random;
 public class Dice_game {

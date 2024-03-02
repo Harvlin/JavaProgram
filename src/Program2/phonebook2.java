@@ -1,3 +1,4 @@
+package Program2;
 import java.util.Scanner;
 import java.util.HashMap;
 class PersonInformation {
@@ -21,7 +22,7 @@ class PersonInformation {
       
 }
 class phoneBookSystem {
-      HashMap<Integer, PersonInformation> phonebookMap = new HashMap<>();
+      HashMap<Integer, PersonInformation /*Person Information Constructor Method*/> phonebookMap = new HashMap<Integer, PersonInformation>();
       public void addPerson(String name, int num, String details) {
             PersonInformation obj = new PersonInformation(name, num, details);
             if (phonebookMap.containsKey(num)) {

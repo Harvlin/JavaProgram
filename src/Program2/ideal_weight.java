@@ -1,5 +1,5 @@
+package Program2;
 import java.util.*;
-
 public class ideal_weight {
       public static void main(String[] imt) {
             Scanner sc = new Scanner(System.in);

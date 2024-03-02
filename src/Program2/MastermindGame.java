@@ -3,6 +3,7 @@
  * ? After that the program will notified to us wich color is in the wrong position or wich color is not in the list.
  * * Player have only 10 tries, with 4 unknown color list.
  */
+package Program2;
 import java.util.*;
 public class MastermindGame {
       static final String[] COLORS = {"R", "G", "B", "Y", "W", "O"};

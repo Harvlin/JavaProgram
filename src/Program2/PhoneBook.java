@@ -1,3 +1,4 @@
+package Program2;
 import java.util.Scanner;
 import java.util.HashMap;
 public class PhoneBook {

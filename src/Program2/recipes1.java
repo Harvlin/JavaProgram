@@ -2,6 +2,7 @@
  * recipes CRUD
  * Users should be able to perform basic CRUD (Create, Read, Update, Delete) operations on recipes. 
  */
+package Program2;
 import java.util.HashMap;
 import java.util.Scanner;
       public class recipes1{

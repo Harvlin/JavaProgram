@@ -1,6 +1,6 @@
+package Program2;
 import java.util.HashMap;
 import java.util.Scanner;
-
 public class toDoList {
       public static HashMap<String, String> List = new HashMap<>();
 

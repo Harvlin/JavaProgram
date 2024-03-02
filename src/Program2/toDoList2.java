@@ -1,3 +1,4 @@
+package Program2;
 import java.util.HashMap;
 import java.util.Scanner;
 class list {
