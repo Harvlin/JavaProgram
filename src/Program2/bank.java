@@ -83,7 +83,7 @@ public class bank {
         System.out.print("password: "); int password = scanner.nextInt(); scanner.nextLine();
 
         if (data.containsKey(id)) {
-            System.out.println("You're already have an account");
+            System.out.println("You already have an account");
             os();
         } else {
             while (true) {
@@ -94,6 +94,9 @@ public class bank {
                     withdraw(scanner, data, uname, password, id);
                 } else if (choice.equalsIgnoreCase("log out")) {
                     os();
+                    break;
+                } else {
+                    System.out.println("Invalid");
                 }
             }
         }
@@ -119,6 +122,9 @@ public class bank {
                     withdraw(scanner, data, data.get(id).getUname(), password, id);
                 } else if (choice.equalsIgnoreCase("log out")) {
                     os();
+                    break;
+                } else {
+                    System.out.println("Invalid");
                 }
             }
         }
