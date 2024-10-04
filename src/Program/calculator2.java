@@ -88,7 +88,7 @@ int evaluateExpression(const string& expression) {
 
 int main() {
     string expression;
-    cout << "Enter an expression (e.g., 2 + 3 * 4 / 2): ";
+    cout << "Enter the number operation): ";
     getline(cin, expression);
 
     int result = evaluateExpression(expression);
